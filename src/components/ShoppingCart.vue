@@ -39,7 +39,7 @@ export default {
       this.$emit("update-cart", this.localCart); // Emit updated cart to parent
     },
     async checkout() {
-      const response = await fetch("http://localhost:5001/orders", {
+      const response = await fetch("https://classplus-api.onrender.com/orders",  {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ user: this.name, phone: this.phone, lessons: this.localCart }),

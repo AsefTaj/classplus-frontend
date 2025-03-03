@@ -23,7 +23,7 @@
     },
     methods: {
       async fetchLessons() {
-        const response = await fetch("http://localhost:5001/lessons");
+        const response = await fetch("https://classplus-api.onrender.com/lessons");
         this.lessons = await response.json();
       },
       addToCart(lesson) {
