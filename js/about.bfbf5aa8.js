@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkclassplus_frontend"]=self["webpackChunkclassplus_frontend"]||[]).push([[594],{603:function(n,s,u){u.r(s),u.d(s,{default:function(){return o}});var t=u(641);const a={class:"about"};function e(n,s){return(0,t.uX)(),(0,t.CE)("div",a,s[0]||(s[0]=[(0,t.Lk)("h1",null,"This is an about page",-1)]))}var r=u(6262);const c={},l=(0,r.A)(c,[["render",e]]);var o=l}}]);
+//# sourceMappingURL=about.bfbf5aa8.js.map
